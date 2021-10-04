@@ -7,6 +7,6 @@ class Teacher extends Person {
 
    @Override
    public void show() {
-       System.out.println("Name: " + name + " Age: " + getAge());
+       System.out.println("Name: " + getName() + " Age: " + getAge());
    }
 }

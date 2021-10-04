@@ -1,7 +1,7 @@
 package QN2;
 
 abstract class Person {
-    protected String name;
+    private String name;
     private int age;
 
     Person(String name, int age) {
@@ -11,6 +11,9 @@ abstract class Person {
 
     public int getAge() {
         return age;
+    }
+    public String getName(){
+        return name;
     }
 
     abstract void show();

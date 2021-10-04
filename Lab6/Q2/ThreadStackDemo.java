@@ -1,8 +1,8 @@
 package Q2;
 
-public class Demo {
+public class ThreadStackDemo {
     public static void main(String[] args) {
-        Stack stack = new Stack(5);
+        ThreadStack stack = new ThreadStack(5);
         new Thread(() -> {
             stack.pop();
             stack.pop();

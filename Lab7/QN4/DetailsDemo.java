@@ -3,7 +3,7 @@ package QN4;
 import java.util.Hashtable;
 import java.util.Scanner;
 
-public class Main {
+public class DetailsDemo {
     public static void main(String[] args) {
         PersonDetails personDetail1 = new PersonDetails("This Person", "That Street", 123456789L, 1000L);
         BankingDetails bankingDetail1 = new BankingDetails(2000L, 1000L, false, 5.0);

@@ -1,6 +1,6 @@
 package QN1;
 
-public class Main {
+public class CardDemo {
 
     public static void main(String[] args) {
         Deck d = new Deck();

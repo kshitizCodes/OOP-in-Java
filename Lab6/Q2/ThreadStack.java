@@ -1,11 +1,11 @@
 package Q2;
 
-public class Stack extends Thread {
+public class ThreadStack extends Thread {
     private int top = -1;
     private final int[] stack;
     private final int size;
 
-    Stack(int size) {
+    ThreadStack(int size) {
         this.size = size;
         this.stack = new int[size];
     }

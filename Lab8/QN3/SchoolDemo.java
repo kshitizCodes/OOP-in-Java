@@ -3,7 +3,7 @@ package QN3;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class SchoolDemo {
     public static void main() {
         Map<String, School> map = new HashMap<>();
 

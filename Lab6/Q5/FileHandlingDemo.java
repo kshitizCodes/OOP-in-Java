@@ -2,10 +2,10 @@ package Q5;
 
 import java.io.*;
 
-public class Demo {
+public class FileHandlingDemo {
     public static void main(String[] args) {
         Student student = new Student(1, "Kshitiz Wagle", "kshitizbca076@ojashwicollege.com.np");
-        File file = new File("src/Q5/file");
+        File file = new File("Lab6/Q5/file");
         try {
             //serializing
             FileOutputStream out = new FileOutputStream(file);
