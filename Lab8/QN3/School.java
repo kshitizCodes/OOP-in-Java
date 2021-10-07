@@ -13,4 +13,19 @@ public class School {
         this.district = district;
     }
 
+    public int getCode() {
+        return code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public String getDistrict() {
+        return district;
+    }
 }
