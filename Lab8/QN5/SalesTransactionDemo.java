@@ -6,12 +6,14 @@ import java.util.LinkedList;
 public class SalesTransactionDemo {
     public static void main(String[] args) {
         LinkedList<SalesTransaction> list;
+
         SalesTransaction st1 = new SalesTransaction("This Person", new SalesTransaction.Date(2021, 10, 8),
                 "How To Java?", 1.00, 400.00);
         SalesTransaction st2 = new SalesTransaction("That Person", new SalesTransaction.Date(2021, 10, 7),
                 "Android Internals", 1.00, 600);
         SalesTransaction st3 = new SalesTransaction("Those People", new SalesTransaction.Date(2020, 10, 9),
                 "iOS Internals", 1.00, 600);
+
         list = new LinkedList<>();
         list.add(st1);
         list.add(st2);

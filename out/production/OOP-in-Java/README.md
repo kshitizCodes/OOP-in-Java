@@ -1,6 +1,6 @@
 # OOP in JAVA
 
-## BCA(TU) 3rd Semester
+## BCA (TU) 3rd Semester
 
 ### [Lab 1 - Data type, Operators and Control Structures](https://github.com/kshitizbca076/OOP-in-JAVA/tree/main/Lab1)
 
