@@ -15,7 +15,6 @@ public class BasicGUI {
         sum = numberI + numberII;
         product = numberI * numberII;
         difference = numberI - numberII;
-
         JOptionPane.showMessageDialog(null, "Sum is " + sum + ", difference is "
                 + difference + " and product is " + product);
     }

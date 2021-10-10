@@ -1,6 +1,7 @@
 package QN5;
 
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class SalesTransactionDemo {
@@ -26,8 +27,9 @@ public class SalesTransactionDemo {
             }
         });
 
-        for (SalesTransaction s : list) {
-            System.out.println(s.toString());
+        Iterator<SalesTransaction> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
         }
     }
 }

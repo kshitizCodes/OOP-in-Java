@@ -1,5 +1,6 @@
 package QN2;
 
+import java.util.Arrays;
 import java.util.TreeSet;
 
 public class Tokenize {
@@ -9,9 +10,7 @@ public class Tokenize {
     Tokenize(String toTokenize) {
         this.string = toTokenize.split(" ");
         set = new TreeSet<>();
-        for (String s : this.string) {
-            set.add(s);
-        }
+        set.addAll(Arrays.asList(this.string));
     }
 
     public void print() {
@@ -19,5 +18,4 @@ public class Tokenize {
             System.out.println(s);
         });
     }
-
 }
