@@ -2,7 +2,7 @@ package QN3;
 
 public class School {
     public enum SchoolType {
-        PRIMARY, SECONDARY, PLUS2, COLLEGE;
+        PRIMARY, SECONDARY, PLUS2, COLLEGE
     }
 
     private final int code;
