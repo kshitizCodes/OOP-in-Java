@@ -5,10 +5,10 @@ public class School {
         PRIMARY, SECONDARY, PLUS2, COLLEGE;
     }
 
-    private int code;
-    private String name;
-    private SchoolType type;
-    private String district;
+    private final int code;
+    private final String name;
+    private final SchoolType type;
+    private final String district;
 
     public School(int code, String name, SchoolType type, String district) {
         this.code = code;
@@ -19,10 +19,6 @@ public class School {
 
     public String getDistrict() {
         return district;
-    }
-
-    public void setDistrict(String district) {
-        this.district = district;
     }
 
     @Override
