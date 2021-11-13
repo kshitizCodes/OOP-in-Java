@@ -6,6 +6,6 @@ public class PointDemo {
         Point p2 = new Point(1, 5);
         System.out.println("Distance from P1 to P2 is " + p1.distanceTo(p2) + " units");
         Point p3 = p1.midpoint(p2);
-        System.out.println("Midpoint: " + p3.x + " " + p3.y);
+        System.out.println("Midpoint: (" + p3.x + ", " + p3.y + ")");
     }
 }

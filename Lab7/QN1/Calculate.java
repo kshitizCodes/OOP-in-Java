@@ -11,7 +11,6 @@ class Calculate {
             System.out.print("sin" + x + "\t " + (df.format(Math.sin(Math.toRadians(x)))) + "\t\t");
             System.out.print("cos" + x + "\t " + (df.format(Math.cos(Math.toRadians(x)))) + "\t\t");
             System.out.print("tan" + x + "\t " + (df.format(Math.tan(Math.toRadians(x)))) + "\n");
-
         }
     }
 }
