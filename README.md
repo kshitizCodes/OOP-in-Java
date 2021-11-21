@@ -19,3 +19,5 @@
 ### [Lab 8 - Collections](https://github.com/kshitizbca076/OOP-in-JAVA/tree/main/Lab8)
 
 ### [Lab 9 - Java Applications (GUI)](https://github.com/kshitizbca076/OOP-in-JAVA/tree/main/Lab9)
+
+### [Tutorial on how to setup IntelliJ IDEA and JDK](https://github.com/kshitizbca076/OOP-in-Java/blob/main/Setup-IDE-and-JDK.pptx)
