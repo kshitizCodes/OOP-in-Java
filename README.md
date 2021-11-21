@@ -1,6 +1,9 @@
 # OOP in JAVA
+
 ## BCA (TU) 3rd Semester
-### -[Tutorial on how to setup IntelliJ IDEA and JDK](https://github.com/kshitizbca076/OOP-in-Java/blob/main/Setup-IDE-and-JDK.pptx)
+
+
+### [Setup IntelliJ IDEA and JDK](https://github.com/kshitizbca076/OOP-in-Java/blob/main/Setup-IDE-and-JDK.pptx)
 
 ### [Lab 1 - Data type, Operators and Control Structures](https://github.com/kshitizbca076/OOP-in-JAVA/tree/main/Lab1)
 
